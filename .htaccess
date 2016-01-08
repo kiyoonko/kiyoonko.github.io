@@ -1,5 +1,4 @@
-RewriteEngine On
-
-# To externally redirect /dir/foo.shtml to /dir/foo
-RewriteCond %{THE_REQUEST} ^GET\s.+\.html [NC]
-RewriteRule ^(.+)\.html$ /$1 [R=301,L,NC]
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
