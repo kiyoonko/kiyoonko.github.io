@@ -36,7 +36,7 @@ iframe {
 }
 * > p:last-child {
 	padding-bottom: 0 !important;
-	margin-bottom: 0 !important;
+	margin-bottom: 0px !important;
 }
 ::selection {
     background: #AAF2E4; /* Safari */
@@ -827,7 +827,7 @@ iframe + iframe {
 .dark-bg,
 .dark-bg p,
 .dark-bg .item-details li:before {
-    color: #A3B1BF;
+    color: #FFFFFF;
 }
 .dark-bg h1,
 .dark-bg h2,
@@ -1754,6 +1754,18 @@ aside .thumb figure {
 .btn.share-pinterest:hover {
     background: #bc2d32 !important
 }
+.btn.share-Youtube {
+    background: #3b3b3b !important
+}
+.btn.share-Youtube:hover {
+    background: #2e2e2e !important
+}
+.btn.share-SoundCloud {
+    background: #3b3b3b !important
+}
+.btn.share-SoundCloud:hover {
+    background: #2e2e2e !important
+}
 .btn-share-lg,
 .btn-share-md,
 .btn-share-sm,
@@ -1837,6 +1849,20 @@ aside .thumb figure {
 .btn-share-xs:hover .icon-s-twitter:after {
     background: #00ACED;
     background: #2FBBED;
+}
+.btn-share-lg:hover .icon-s-youtube:after,
+.btn-share-md:hover .icon-s-youtube:after,
+.btn-share-sm:hover .icon-s-youtube:after,
+.btn-share-xs:hover .icon-s-youtube:after {
+    background: #DD4B39;
+    background: #DE5745;
+}
+.btn-share-lg:hover .icon-s-soundcloud:after,
+.btn-share-md:hover .icon-s-soundcloud:after,
+.btn-share-sm:hover .icon-s-soundcloud:after,
+.btn-share-xs:hover .icon-s-soundcloud:after {
+    background: #ff3a00;
+    background: #FF4b11;
 }
 .btn-share-lg p,
 .btn-share-md p,
@@ -5254,7 +5280,7 @@ input:focus:-ms-input-placeholder {
 	#owl-main .item,
 	#owl-main.height-md .item,
 	#owl-main.height-lg .item {
-		height: 88vh;
+		height: 100vh;
 	}
 	
 	#hero h1 {
@@ -5814,7 +5840,7 @@ input:focus:-ms-input-placeholder {
 	#owl-main .item,
 	#owl-main.height-md .item,
 	#owl-main.height-lg .item {
-		height: 480px;
+		height: 100vh;
 	}
 }
 
