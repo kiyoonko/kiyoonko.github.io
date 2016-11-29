@@ -248,13 +248,24 @@ img {
   transition: opacity 0.5s ease-in-out;
 }
 
-#leftHover img.top:hover {
+#leftHover img.bottom{
+  opacity: 0;
+}
+
+
+#leftHover:hover img.top {
   opacity:0;
+}
+
+#leftHover:hover img.bottom{
+  opacity:1;
 }
 
 #rightHover{
   float:right;
   margin:0 auto;
+  flex-direction: row-reverse;
+
 }
 
 #rightHover img {
@@ -266,8 +277,17 @@ img {
   transition: opacity 0.5s ease-in-out;
 }
 
-#rightHover img.top:hover {
+#rightHover img.bottom{
+  opacity: 0;
+}
+
+
+#rightHover:hover img.top{
   opacity:0;
+}
+
+#rightHover:hover img.bottom{
+  opacity:1;
 }
 
 #downHover{
@@ -282,8 +302,18 @@ img {
   transition: opacity 0.5s ease-in-out;
 }
 
-#downHover img.top:hover {
+#downHover img.bottom{
+  opacity: 0;
+  left: calc(50vw - 54px);
+}
+
+
+#downHover:hover img.top{
   opacity:0;
+}
+
+#downHover:hover img.bottom{
+  opacity:1;
 }
 
 #kiyoonko{
