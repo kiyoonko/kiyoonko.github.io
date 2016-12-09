@@ -14,9 +14,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url('https://fonts.googleapis.com/css?family=Kreon');
+@import url('https://fonts.googleapis.com/css?family=Varela Round');
 html {
-  font-family: 'Kreon', serif;;
+  font-family: 'Varela Round', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -26,14 +26,8 @@ body {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-color: #04202C;
-    background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-image: url("../img/background.png");
+    background-repeat: repeat;
     height: 100vh;
 }
 
@@ -46,17 +40,17 @@ header .intro-text .intro-lead-in {
 /* Kiyoon Ko: */
   margin-top: 17vh;
   margin-bottom: 2vh;
-  font-family: Kreon-Regular;
+  font-family: Varela Round;
   font-size: 120px;
-  color: #1995AD;
+  color: #ffffff;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 0px;
 /* Hi! I am a…: */
-font-family: Kreon-Regular;
+font-family: Varela Round;
 font-size: 55px;
-color: #1995AD;
+color: #ffffff;
   text-align: center;
 }
 
@@ -64,24 +58,24 @@ header .intro-text .intro-text {
     margin-bottom: 2vh;
 /* Hi! I am a…: */
 /* <Animated Text>: */
-font-family: Kreon-Regular;
+font-family: Varela Round;
 font-size: 55px;
-color: #1995AD;
+color: #ffffff;
   text-align: center;
 }
 
 .slogan{
   /* Hi! I’m Yoon!: */
-font-family: Kreon-Regular;
+font-family: Varela Round;
 font-size: 77px;
 color: #62E1FA;
 }
 
 .aboutText{
   /* Lorem ipsum dolor si: */
-font-family: Kreon-Regular;
-font-size: 30px;
-color: #DDF9FF;
+font-family: Varela Round;
+font-size: 20px;
+color: #ffffff;
 }
 
 #portfolio{
@@ -90,7 +84,7 @@ color: #DDF9FF;
 }
 
 .portfolioText{
-  font-family: Kreon-Regular;
+  font-family: Varela Round;
   font-size: 30px;
   color: #DDF9FF;
   text-align: center; 
@@ -235,8 +229,9 @@ img {
 }
 
 #leftHover{
-  float:left;
-  margin:0 auto;
+  position:absolute;
+  top:50%;
+  left:0;
 }
 
 #leftHover img {
@@ -249,6 +244,7 @@ img {
 }
 
 #leftHover img.bottom{
+  margin-top:6px;
   opacity: 0;
 }
 
@@ -262,9 +258,9 @@ img {
 }
 
 #rightHover{
-  float:right;
-  margin:0 auto;
-  flex-direction: row-reverse;
+  position:absolute;
+  top:50%;
+  right:0%;
 
 }
 
@@ -278,6 +274,7 @@ img {
 }
 
 #rightHover img.bottom{
+  margin-top: 1px;
   opacity: 0;
 }
 
@@ -290,12 +287,20 @@ img {
   opacity:1;
 }
 
+.downHoverContainer{
+  position:absolute;
+  bottom: 15%;
+  margin: auto;
+  width: 100vw;
+}
+
 #downHover{
   margin-left: -5vw;
 }
 
-#downHover img {
+#downHover img{
   position:absolute;
+  left: calc(50vw-25px);
   -webkit-transition: opacity 0.5s ease-in-out;
   -moz-transition: opacity 0.5s ease-in-out;
   -o-transition: opacity 0.5s ease-in-out;
@@ -304,7 +309,7 @@ img {
 
 #downHover img.bottom{
   opacity: 0;
-  left: calc(50vw - 54px);
+  left: calc(50vw - 57px);
 }
 
 
@@ -379,6 +384,134 @@ img {
 
 #shortart:hover {
   content: url("../img/shortartHover.png");
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  header .intro-text .intro-lead-in{
+    font-size: 50px;
+  }
+  header .intro-text .intro-heading{
+    font-size: 25px;
+  }
+  header #typed{
+    font-size: 20px;
+  }
+  #leftHover{
+    width: 30px;
+  }
+  .slogan{
+    font-size: 70px;
+  }
+  a{
+    font-size: 30px;
+  }
+  a.blog{
+    font-size: 22px;
+  }
+  a.portfolio{
+    font-size: 30px;
+  }
+  .contactOpen{
+    font-size: 50px;
+  }
+  .contact{
+    font-size: 12px;
+  }
+  .formIntro{
+    font-size: 25px;
+  }
+  .formHeading{
+    font-size: 15px;
+  }
+
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  header .intro-text .intro-lead-in{
+    font-size: 75px;
+  }
+  header .intro-text .intro-heading{
+    font-size: 30px;
+  }
+  header #typed{
+    font-size: 20px;
+  }
+  a{
+    font-size: 50px;!important
+  }
+  a.blog{
+    font-size: 22px;!important
+  }
+  a.portfolio{
+    font-size: 50px;
+  }
+  .contactOpen{
+    font-size: 50px;
+  }
+  .contact{
+    font-size: 15px;
+  }
+  .formIntro{
+    font-size: 25px;
+  }
+  .formHeading{
+    font-size: 15px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  header .intro-text .intro-lead-in{
+    font-size: 100px;
+  }
+  header .intro-text .intro-heading{
+    font-size: 55px;
+  }
+  header #typed{
+    font-size: 40px;
+  }
+  a{
+    font-size: 75px;!important
+  }
+  a.blog{
+    font-size: 22px;!important
+  }
+  a.portfolio{
+    font-size: 50px;
+  }
+  .contactOpen{
+    font-size: 75px;
+  }
+  .contact{
+    font-size: 30px;
+  }
+  .formIntro{
+    font-size: 45px;
+  }
+  .formHeading{
+    font-size: 20px;
+  }
+}
+@media (min-width: 1200px) {
+  a{
+    font-size: 100px;!important
+  }
+  a.blog{
+    font-size: 22px;!important
+  }
+  a.portfolio{
+    font-size: 50px;
+  }
+  .contactOpen{
+    font-size: 100px;
+  }
+  .contact{
+    font-size: 35px;
+  }
+  .formIntro{
+    font-size: 45px;
+  }
+  .formHeading{
+    font-size: 30px;
+  }
 }
 
 svg:not(:root) {
@@ -2070,6 +2203,9 @@ pre code {
 }
 .col-xs-offset-25 {
   margin-left: 20.83333333%;
+}
+.col-xs-offset-55 {
+  margin-left: 3%;
 }
 .col-xs-offset-2 {
   margin-left: 16.66666667%;
@@ -7061,9 +7197,9 @@ button.close {
 
 div.about{
   /* Lorem ipsum dolor si: */
-font-family: Kreon-Regular;
-font-size: 30px;
-color: #1995AD;
+font-family: Varela Round;
+font-size: 20px;
+color: #ffffff;
 }
 
 /* Overlay style */
@@ -7109,7 +7245,7 @@ color: #1995AD;
 .overlay .overlay-close-portfolio{
   width: 80px;
   height: 80px;
-  position: absolute;
+  position: relative;
   right: 20px;
   top: 20px;
   overflow: hidden;
@@ -7123,7 +7259,7 @@ color: #1995AD;
 .overlay .overlay-close-portfolio:Hover{
   width: 80px;
   height: 80px;
-  position: absolute;
+  position: relative;
   right: 20px;
   top: 20px;
   overflow: hidden;
@@ -7168,7 +7304,7 @@ color: #1995AD;
 
 .contactOpen{
   /* Thanks for your visi: */
-font-family: Kreon-Regular;
+font-family: Varela Round;
 font-size: 80px;
 color: #B6F3FF;
 text-align: center;
@@ -7176,7 +7312,7 @@ text-align: center;
 
 .contactSub{
   /* If you wish to get i: */
-font-family: Kreon-Regular;
+font-family: Varela Round;
 font-size: 35px;
 color: #B6F3FF;
 text-align: center;
@@ -7194,15 +7330,14 @@ text-align: center;
 
 .contactInfo{
   /* kiyoonko@gmail.com: */
-font-family: Kreon-Regular;
-font-size: 35px;
+font-family: Varela Round;
+font-size: 33 px;
 color: #1995AD;
 }
 
 .icons{
   /*    : */
-font-size: 100px;
-font-color: #1995AD;
+font-size: 50px;
 }
 
 .iconsPortfolio{
@@ -7267,6 +7402,8 @@ margin-right:11px;
   transform: translateX(-100%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
   transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+      background-image: url("../img/background.png");
+    background-repeat: repeat;
 }
 
 .overlay-about.open {
@@ -7283,6 +7420,8 @@ margin-right:11px;
   transform: translateY(100%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
   transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+      background-image: url("../img/background.png");
+    background-repeat: repeat;
 }
 
 .overlay-contact.open {
@@ -7299,6 +7438,8 @@ margin-right:11px;
   transform: translateX(100%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
   transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+      background-image: url("../img/background.png");
+    background-repeat: repeat;
 }
 
 .overlay-portfolio.open {
@@ -7326,15 +7467,13 @@ margin-right:11px;
 
 .formIntro{
   /* Send a Message:: */
-  font-family: Kreon-Bold;
-  font-size: 35px;
+  font-family: Varela Round;
   color: #1995AD;
 }
 
 .formHeading{
   /* Name:: */
-font-family: Kreon-Regular;
-font-size: 25px;
+font-family: Varela Round;
 color: #1995AD;
 }
 
@@ -7365,3 +7504,10 @@ color: #1995AD;
   }
 }
 
+.wordwrap { 
+   white-space: pre-wrap;      /* CSS3 */   
+   white-space: -moz-pre-wrap; /* Firefox */    
+   white-space: -pre-wrap;     /* Opera <7 */   
+   white-space: -o-pre-wrap;   /* Opera 7 */    
+   word-wrap: break-word;      /* IE */
+}
