@@ -14,9 +14,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url('https://fonts.googleapis.com/css?family=Varela Round');
+@import url('https://fonts.googleapis.com/css?family=Quantico');
 html {
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Quantico', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -40,7 +40,7 @@ header .intro-text .intro-lead-in {
 /* Kiyoon Ko: */
   margin-top: 17vh;
   margin-bottom: 2vh;
-  font-family: Varela Round;
+  font-family: Quantico;
   font-size: 120px;
   color: #ffffff;
 }
@@ -48,7 +48,7 @@ header .intro-text .intro-lead-in {
 header .intro-text .intro-heading {
     margin-bottom: 0px;
 /* Hi! I am a…: */
-font-family: Varela Round;
+font-family: Quantico;
 font-size: 55px;
 color: #ffffff;
   text-align: center;
@@ -58,7 +58,7 @@ header .intro-text .intro-text {
     margin-bottom: 2vh;
 /* Hi! I am a…: */
 /* <Animated Text>: */
-font-family: Varela Round;
+font-family: Quantico;
 font-size: 55px;
 color: #ffffff;
   text-align: center;
@@ -66,14 +66,14 @@ color: #ffffff;
 
 .slogan{
   /* Hi! I’m Yoon!: */
-font-family: Varela Round;
+font-family: Quantico;
 font-size: 77px;
 color: #62E1FA;
 }
 
 .aboutText{
   /* Lorem ipsum dolor si: */
-font-family: Varela Round;
+font-family: Quantico;
 font-size: 20px;
 color: #ffffff;
 }
@@ -84,9 +84,9 @@ color: #ffffff;
 }
 
 .portfolioText{
-  font-family: Varela Round;
+  font-family: Quantico;
   font-size: 30px;
-  color: #DDF9FF;
+  color: #ffffff;
   text-align: center; 
   margin-top:5vh; 
 }
@@ -7197,7 +7197,7 @@ button.close {
 
 div.about{
   /* Lorem ipsum dolor si: */
-font-family: Varela Round;
+font-family: Quantico;
 font-size: 20px;
 color: #ffffff;
 }
@@ -7304,17 +7304,17 @@ color: #ffffff;
 
 .contactOpen{
   /* Thanks for your visi: */
-font-family: Varela Round;
+font-family: Quantico;
 font-size: 80px;
-color: #B6F3FF;
+color: #ffffff;
 text-align: center;
 }
 
 .contactSub{
   /* If you wish to get i: */
-font-family: Varela Round;
+font-family: Quantico;
 font-size: 35px;
-color: #B6F3FF;
+color: #ffffff;
 text-align: center;
 }
 
@@ -7330,7 +7330,7 @@ text-align: center;
 
 .contactInfo{
   /* kiyoonko@gmail.com: */
-font-family: Varela Round;
+font-family: Quantico;
 font-size: 33 px;
 color: #1995AD;
 }
@@ -7467,13 +7467,13 @@ margin-right:11px;
 
 .formIntro{
   /* Send a Message:: */
-  font-family: Varela Round;
+  font-family: Quantico;
   color: #1995AD;
 }
 
 .formHeading{
   /* Name:: */
-font-family: Varela Round;
+font-family: Quantico;
 color: #1995AD;
 }
 
