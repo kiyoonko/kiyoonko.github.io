@@ -15,6 +15,10 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 @import url('https://fonts.googleapis.com/css?family=Quantico');
+@font-face{
+  font-family: rajdhani;
+  src: url('../fonts/Rajdhani-Regular.ttf');
+} 
 html {
   font-family: 'Quantico', sans-serif;
   -ms-text-size-adjust: 100%;
@@ -73,7 +77,7 @@ color: #62E1FA;
 
 .aboutText{
   /* Lorem ipsum dolor si: */
-font-family: Quantico;
+font-family: 'rajdhani';
 font-size: 20px;
 color: #ffffff;
 }
@@ -3071,7 +3075,7 @@ input[type="search"] {
   }
 }
 .form-group {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .radio,
 .checkbox {
@@ -3559,6 +3563,7 @@ fieldset[disabled] .btn-default.focus {
   color: #ffffff;
   background-color: #337ab7;
   border-color: #2e6da4;
+  font-family: rajdhani;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -7330,7 +7335,7 @@ text-align: center;
 
 .contactInfo{
   /* kiyoonko@gmail.com: */
-font-family: Quantico;
+font-family: 'rajdhani';
 font-size: 33 px;
 color: #1995AD;
 }
@@ -7467,13 +7472,13 @@ margin-right:11px;
 
 .formIntro{
   /* Send a Message:: */
-  font-family: Quantico;
+  font-family: rajdhani;
   color: #1995AD;
 }
 
 .formHeading{
   /* Name:: */
-font-family: Quantico;
+font-family: rajdhani;
 color: #1995AD;
 }
 
