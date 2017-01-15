@@ -338,19 +338,6 @@ img {
   content: url("../img/kiyoonkomeHover.png");
 }
 
-#azhar{
-  content: url("../img/azhar.png");
-  height:100%;
-  width:100%;
-  margin: 0;
-  object-fit: contain;
-  transition: all 0.3s ease 0s;
-}
-
-#azhar:hover {
-  content: url("../img/azharHover.png");
-}
-
 #muse{
   content: url("../img/musebot.png");
   height:100%;
@@ -401,6 +388,19 @@ img {
 
 #tunder:hover {
   content: url("../img/tunderHover.png");
+}
+
+#cap2go{
+  content: url("../img/capital2go.png");
+  height:100%;
+  width:100%;
+  margin: 0;
+  object-fit: contain;
+  transition: all 0.3s ease 0s;
+}
+
+#cap2go:hover {
+  content: url("../img/capital2goHover.png");
 }
 
 /* Small devices (tablets, 768px and up) */
